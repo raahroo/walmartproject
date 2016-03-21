@@ -1,31 +1,41 @@
-	<?php 
-
-	require_once("cabecalho.php"); ?>
+<?php
+require_once("cabecalho.php"); ?>
 
 	<div class="container-fluid" id="home">
-		<div class="row">
-			<div class="col-md-4">
-				<h1>Seus Pedidos</h1>
+		<div class="container" id="content-home">
+			<img src="img/Walmart-logo-4.png" class="img-responsive">
+			<div class="row">
+				<a href="areacliente.php">
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<h2><span class="glyphicon glyphicon-user" aria-hidden="true"></span></h2>
+							<h3>Área do cliente</h3>
+						</div>
+					</div>
+				</a>
+
+				<a href="enderecos.php">
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<h2><span class="glyphicon glyphicon-home" aria-hidden="true"></span></h2>
+							<h3>Endereços cadastrados</h3>
+						</div>
+					</div>
+				</a>
+
+				<a href="pedidos.php">
+					<div class="col-md-4">
+						<div class="thumbnail">
+							<h2><span class="glyphicon glyphicon-gift" aria-hidden="true"></span></h2>
+							<h3>Seus pedidos</h3>
+						</div>
+					</div>
+				</a>
 			</div>
-
-			<a href="enderecos.php">
-				<div class="col-md-4">
-					<h1>Enderecos Cadastrados</h1>
-				</div>
-			</a>
-
-			<div class="col-md-4">
-				<h1>Area do Cliente</h1>
-			</div>
+		</div>
 	</div>
+<?php require_once("rodape.php");?>
 
-
-	<div class="container-fluid" id="topo">
-		<p><span class="glyphicon glyphicon-arrow-up" aria-hidden="true"></span>
-		Voltar ao topo</p>
-	</div>
-
-	</body>
 
 </html>
 
