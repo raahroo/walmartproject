@@ -1,7 +1,7 @@
 # walmartproject
 Walmart - E-commerce
 Desenvolvido por: Rahro Comunicação/Raissa Rodrigues
-Versão: 0.0.1
+Versão: 0.0.2
 
 ----------------------
 O site foi desenvolvido em PHP, com a função de cadastro de endereços e listagem já funcionando.
