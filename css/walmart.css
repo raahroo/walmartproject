@@ -1,0 +1,252 @@
+@charset "UTF-8";
+body, html {
+  height: 100%; }
+
+.logo {
+  max-width: 120px;
+  margin-top: -10px; }
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 50px 0 20px;
+  border-bottom: 1px solid #eee;
+  background-color: #0085ca;
+  color: #fff;
+  top: -10px; }
+
+.navbar-inverse {
+  background: #000;
+  color: #fff; }
+  .navbar-inverse a {
+    color: #fff; }
+
+.active {
+  color: #000d1a; }
+
+.areacliente {
+  color: #0085ca;
+  padding-bottom: 50px; }
+
+.dados {
+  color: #0085ca; }
+
+#welcome {
+  background-color: #ffcc00;
+  margin-top: -23px;
+  padding: 10px;
+  text-align: center;
+  color: #0085ca; }
+
+body {
+  background-color: #fff;
+  font-family: Roboto Slab, serif; }
+
+#home {
+  z-index: -999;
+  min-height: 600px;
+  background: url(../img/01.jpg) no-repeat center center fixed;
+  background-size: cover;
+  /*Css padrão*/
+  -webkit-background-size: cover;
+  /*Css safari e chrome*/
+  -moz-background-size: cover;
+  /*Css firefox*/
+  -ms-background-size: cover;
+  /*Css IE não use mer#^@%#*/
+  -o-background-size: cover;
+  /*Css Opera*/
+  padding-bottom: 200px;
+  text-align: center; }
+  #home img {
+    padding-top: 200px;
+    margin: 0 auto;
+    padding-bottom: 100px; }
+  #home .col-md-4 span {
+    padding-top: 30px; }
+  #home .thumbnail {
+    background: #0085ca;
+    color: #fff; }
+    #home .thumbnail:hover {
+      background-color: #ffcc00;
+      color: #0085ca; }
+
+#topo {
+  position: fixed;
+  right: 20px;
+  text-align: center;
+  margin: 0 auto;
+  z-index: 9999999999;
+  bottom: 0px;
+  padding-bottom: 20px; }
+  #topo p {
+    text-transform: uppercase;
+    padding-top: 20px; }
+
+h1 {
+  font-family: Roboto Slab, serif;
+  text-transform: uppercase;
+  padding-top: 100px;
+  text-align: center; }
+
+h2 {
+  font-family: Roboto Slab, serif;
+  text-transform: uppercase; }
+
+#enderecos {
+  text-align: center;
+  min-height: 600px; }
+
+#formendereco {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left; }
+
+input {
+  padding-bottom: 20px; }
+
+label {
+  padding-top: 20px; }
+
+.iconeseditar {
+  text-align: right; }
+
+footer {
+  padding-top: 3%;
+  background-color: #0085ca;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 50px;
+  bottom: 0; }
+
+footer img {
+  max-width: 60px; }
+
+.add {
+  min-height: 190px; }
+  .add:hover {
+    color: #0085ca;
+    background: #ffcc00; }
+
+#slider_pedidos {
+  padding-top: 50px;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #333; }
+
+.panel-collapse {
+  padding: 10px;
+  text-align: center; }
+
+.codigocompra {
+  padding-top: 10px; }
+
+.thumbnail img {
+  padding: 20px; }
+
+#wrapper {
+  min-height: 500px; }
+
+.navbar-inverse {
+  position: fixed;
+  z-index: 99;
+  top: 0;
+  width: 100%; }
+
+#pedidos {
+  padding-top: 20px;
+  min-height: 600px; }
+  #pedidos .thumbnail {
+    min-height: 500px; }
+
+#areadocliente {
+  min-height: 600px;
+  text-align: center; }
+
+.carousel-control.right, .carousel-control.left {
+  background-image: none;
+  color: #0085ca; }
+
+#historicocompras .thumbnail {
+  min-height: 400px; }
+
+.thumbnail {
+  min-height: 200px; }
+
+.btnbottom {
+  float: right; }
+
+.preco {
+  color: #248f24;
+  font-weight: bold;
+  font-size: 20px; }
+
+#preferencias {
+  text-align: left; }
+
+li {
+  list-style: none; }
+
+#preferencias li:before {
+  content: "•";
+  color: #0085ca;
+  /* or whatever color you prefer */ }
+#preferencias h2 {
+  text-align: center; }
+#preferencias img {
+  width: 40px;
+  height: 40px; }
+
+#selos img {
+  max-width: 100px; }
+#selos h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: orange; }
+
+#pesquisa form {
+  max-width: 600px;
+  margin: 0 auto; }
+#pesquisa input, #pesquisa textarea {
+  margin-bottom: 30px; }
+
+#dadospessoais {
+  text-align: left; }
+  #dadospessoais h2 {
+    text-align: center; }
+  #dadospessoais li {
+    padding-bottom: 20px;
+    list-style: none; }
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold; }
+
+.botaoatualiza {
+  float: right;
+  margin-right: 20px; }
+
+.btnok {
+  margin-right: 20px;
+  float: right;
+  background: #ffcc00;
+  color: #0085ca; }
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
+  background-color: #ffcc00;
+  border: 1px solid #ffcc00;
+  border-radius: 10px; }
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #0085ca;
+  border: none; }
+
+/*# sourceMappingURL=walmartnew.css.map */
