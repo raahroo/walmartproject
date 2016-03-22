@@ -12,7 +12,7 @@ require_once("bancofuncoes.php"); ?>
 </div>
 
   <div id="welcome">       
-    <h4>Edique e cadastre novos endereços para suas entregas <span class="glyphicon glyphicon-arrow-down"></span></h4>        
+    <h4>Edite e cadastre novos endereços para suas entregas <span class="glyphicon glyphicon-arrow-down"></span></h4>        
   </div>
 
 <div class="container">  
